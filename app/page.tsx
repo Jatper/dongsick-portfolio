@@ -42,50 +42,48 @@ export default function Home() {
               <div className="flex space-x-4">
                 <Link
                   className="inline-flex items-center justify-center rounded-md bg-gray-900 px-6 py-3 text-black hover:bg-gray-900/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:bg-gray-50 dark:hover:bg-gray-50/80 dark:focus-visible:ring-gray-50"
-                  href="#"
+                  href="https://www.artstation.com/jatper" target="_blank" 
                 >
-                  View Projects
+                  아트스테이션
                 </Link>
                 <Link
                   className="inline-flex items-center justify-center rounded-md border border-gray-200 border-gray-900 px-6 py-3 text-gray-900 hover:bg-gray-900 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:border-gray-800 dark:border-gray-50 dark:text-gray-50 dark:hover:bg-gray-50 dark:focus-visible:ring-gray-50"
-                  href="#"
+                  href="#작업물"
                 >
-                  Contact
+                  작업물
                 </Link>
               </div>
             </div>
             <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
-              <img alt="3D Model" className="object-cover" fill src="/placeholder.svg" />
+              <img alt="3D Model" className="object-cover" src="https://cdna.artstation.com/p/assets/images/images/070/998/382/large/jatper-111-viewport.jpg?1704212701" />
             </div>
           </div>
         </section>
-        <section className="py-20 px-6 md:px-10">
+        <section className="py-20 px-6 md:px-10" id="작업물">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-10">작업물</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              <Link className="group" href="#">
+              <Link className="group" href="https://www.artstation.com/artwork/Vy658X" target="_blank">
                 <div className="relative h-[300px] overflow-hidden rounded-lg shadow-lg">
                   <img
                     alt="Project 1"
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
-                    fill
-                    src="/placeholder.svg"
+                    src="https://cdna.artstation.com/p/assets/images/images/055/038/400/large/jatper-1.jpg?1704212870"
                   />
                 </div>
-                <h3 className="mt-4 text-lg font-semibold group-hover:underline">Project 1</h3>
-                <p className="text-gray-500">Description of Project 1</p>
+                <h3 className="mt-4 text-lg font-semibold group-hover:underline">오구리 캡</h3>
+                <p className="text-gray-500">우마무스메 프리티 더비 게임에 등장하는 오구리 캡 이라는 캐릭터입니다.</p>
               </Link>
-              <Link className="group" href="#">
+              <Link className="group" href="https://www.artstation.com/artwork/DvGylG" target="_blank">
                 <div className="relative h-[300px] overflow-hidden rounded-lg shadow-lg">
                   <img
                     alt="Project 2"
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
-                    fill
-                    src="/placeholder.svg"
+                    src="https://cdna.artstation.com/p/assets/images/images/070/998/382/large/jatper-111-viewport.jpg?1704212701"
                   />
                 </div>
-                <h3 className="mt-4 text-lg font-semibold group-hover:underline">Project 2</h3>
-                <p className="text-gray-500">Description of Project 2</p>
+                <h3 className="mt-4 text-lg font-semibold group-hover:underline">유라</h3>
+                <p className="text-gray-500">원신에 등장하는 유라 라는 캐릭터입니다.</p>
               </Link>
               <Link className="group" href="#">
                 <div className="relative h-[300px] overflow-hidden rounded-lg shadow-lg">
@@ -93,7 +91,7 @@ export default function Home() {
                     alt="Project 3"
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
                     fill
-                    src="/placeholder.svg"
+                    src="jatper-111-viewport.jpg"
                   />
                 </div>
                 <h3 className="mt-4 text-lg font-semibold group-hover:underline">Project 3</h3>
@@ -153,13 +151,13 @@ export default function Home() {
               </Link>
             </div>
             <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
-              <img alt="Designer Portrait" className="object-cover" fill src="/placeholder.svg" />
+              <img alt="Designer Portrait" className="object-cover" src="https://i.namu.wiki/i/M0j6sykCciGaZJ8yW0CMumUigNAFS8Z-dJA9h_GKYSmqqYSQyqJq8D8xSg3qAz2htlsPQfyHZZMmAbPV-Ml9UA.webp" />
             </div>
           </div>
         </section>
         <section className="py-20 px-6 md:px-10">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-10">Contact</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-10">컨텐츠</h2>
             <form className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
