@@ -58,8 +58,8 @@ export function Layout() {
         <section className="bg-gray-900 text-white py-20 px-6 md:px-10">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="space-y-6">
-              <h1 className="text-4xl md:text-5xl font-bold">Explore the 3D Design Portfolio</h1>
-              <p className="text-lg md:text-xl">Discover the stunning 3D creations of our talented designer.</p>
+              <h1 className="text-4xl md:text-5xl font-bold">김동식 3D 작업물 포트폴리오</h1>
+              <p className="text-lg md:text-xl">지금까지 작업했던 3D 관련된 작업들입니다.</p>
               <div className="flex space-x-4">
                 <Link
                   className="inline-flex items-center justify-center rounded-md bg-gray-900 px-6 py-3 text-white hover:bg-gray-900/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:bg-gray-50 dark:hover:bg-gray-50/80 dark:focus-visible:ring-gray-50"
