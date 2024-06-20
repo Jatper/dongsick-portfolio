@@ -13,7 +13,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
        <header className="bg-zinc-900 text-white py-4 px-6 md:px-10 flex items-center justify-between sticky top-0 z-50">
         <Link className="text-2xl font-bold" href="#">
-          3D Designer
+          김동식 포트폴리오
         </Link>
         <nav className="hidden md:flex items-center space-x-6">
           <Link className="hover:underline" href="#home">
