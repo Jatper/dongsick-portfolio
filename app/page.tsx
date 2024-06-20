@@ -41,7 +41,7 @@ export default function Home() {
               <p className="text-lg md:text-xl">지금까지 작업했던 3D 관련된 작업들입니다.</p>
               <div className="flex space-x-4">
                 <Link
-                  className="inline-flex items-center justify-center rounded-md bg-zinc-100 px-6 py-3 text-black hover:bg-gray-900/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:bg-gray-50 dark:hover:bg-gray-50/80 dark:focus-visible:ring-gray-50"
+                  className="inline-flex items-center justify-center rounded-md bg-zinc-100 px-6 py-3 text-black hover:bg-zinc-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:bg-gray-50 dark:hover:bg-gray-50/80 dark:focus-visible:ring-gray-50"
                   href="https://www.artstation.com/jatper" target="_blank" 
                 >
                   아트스테이션
