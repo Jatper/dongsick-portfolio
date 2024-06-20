@@ -19,13 +19,13 @@ export default function Home() {
           <Link className="hover:underline" href="#home">
             Home
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="#작업물">
             Projects
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="#about">
             About
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="#Contact">
             Contact
           </Link>
         </nav>
@@ -138,7 +138,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-gray-900 text-white py-20 px-6 md:px-10">
+        <section className="bg-gray-900 text-white py-20 px-6 md:px-10" id="about">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">디자이너 소개</h2>
@@ -157,7 +157,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-20 px-6 md:px-10">
+        <section className="py-20 px-6 md:px-10" id="Contact">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-10">컨텐츠</h2>
             <form className="space-y-6">
@@ -184,7 +184,7 @@ export default function Home() {
       </main>
       <footer className="bg-gray-900 text-white py-6 px-6 md:px-10">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between">
-          <p>© 2023 3D Designer. All rights reserved.</p>
+          <p>© 2024 3D Designer. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <Link className="hover:underline" href="#">
               Privacy Policy
