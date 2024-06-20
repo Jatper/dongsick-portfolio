@@ -163,20 +163,20 @@ export default function Home() {
             <form className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
-                  <Label htmlFor="name">Name</Label>
+                  <Label htmlFor="name">이름</Label>
                   <Input id="name" required type="text" style={{ backgroundColor: 'white' }} />
                 </div>
                 <div>
-                  <Label htmlFor="email">Email</Label>
+                  <Label htmlFor="email">메일</Label>
                   <Input id="email" required type="email" style={{ backgroundColor: 'white' }} />
                 </div>
               </div>
               <div>
-                <Label htmlFor="message">Message</Label>
+                <Label htmlFor="message">메세지</Label>
                 <Textarea id="message" required rows={5} style={{ backgroundColor: 'white' }} />
               </div>
               <Button className="w-full bg-zinc-800 text-white" type="submit">
-                Submit
+                제출
               </Button>
             </form>
           </div>
