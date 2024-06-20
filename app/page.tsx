@@ -164,16 +164,16 @@ export default function Home() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <Label htmlFor="name">Name</Label>
-                  <Input id="name" required type="text" />
+                  <Input id="name" required type="text" style={{ backgroundColor: 'white' }} />
                 </div>
                 <div>
                   <Label htmlFor="email">Email</Label>
-                  <Input id="email" required type="email" />
+                  <Input id="email" required type="email" style={{ backgroundColor: 'white' }} />
                 </div>
               </div>
               <div>
                 <Label htmlFor="message">Message</Label>
-                <Textarea id="message" required rows={5} />
+                <Textarea id="message" required rows={5} style={{ backgroundColor: 'white' }} />
               </div>
               <Button className="w-full" type="submit">
                 Submit
