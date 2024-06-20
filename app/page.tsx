@@ -47,7 +47,7 @@ export default function Home() {
                   아트스테이션
                 </Link>
                 <Link
-                  className="inline-flex items-center justify-center rounded-md border border-gray-200 border-gray-100 px-6 py-3 text-gray-100 hover:bg-gray-100 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-100 focus-visible:ring-offset-2 dark:border-gray-100 dark:border-gray-50 dark:text-gray-50 dark:hover:bg-gray-50 dark:focus-visible:ring-gray-50"
+                  className="inline-flex items-center justify-center rounded-md border border-gray-200 border-gray-100 px-6 py-3 text-gray-100 hover:bg-zinc-300 hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-100 focus-visible:ring-offset-2 dark:border-gray-100 dark:border-gray-50 dark:text-gray-50 dark:hover:bg-gray-50 dark:focus-visible:ring-gray-50"
                   href="#작업물"
                 >
                   작업물
