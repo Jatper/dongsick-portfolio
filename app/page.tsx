@@ -11,7 +11,7 @@ import { JSX, SVGProps } from "react";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-       <header className="bg-gray-900 text-white py-4 px-6 md:px-10 flex items-center justify-between sticky top-0 z-50">
+       <header className="bg-zinc-900 text-white py-4 px-6 md:px-10 flex items-center justify-between sticky top-0 z-50">
         <Link className="text-2xl font-bold" href="#">
           3D Designer
         </Link>
@@ -34,7 +34,7 @@ export default function Home() {
         </Button>
       </header>
       <main className="flex-1" id="home">
-        <section className="bg-gray-900 text-white min-h-screen flex items-center justify-center py-20 px-6 md:px-10">
+        <section className="bg-zinc-800 text-white min-h-screen flex items-center justify-center py-20 px-6 md:px-10">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl font-bold">3D 작업물 포트폴리오 by 김동식</h1>
@@ -47,7 +47,7 @@ export default function Home() {
                   아트스테이션
                 </Link>
                 <Link
-                  className="inline-flex items-center justify-center rounded-md border border-gray-200 border-gray-900 px-6 py-3 text-gray-900 hover:bg-gray-900 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:border-gray-800 dark:border-gray-50 dark:text-gray-50 dark:hover:bg-gray-50 dark:focus-visible:ring-gray-50"
+                  className="inline-flex items-center justify-center rounded-md border border-gray-200 border-gray-100 px-6 py-3 text-gray-100 hover:bg-gray-100 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-100 focus-visible:ring-offset-2 dark:border-gray-100 dark:border-gray-50 dark:text-gray-50 dark:hover:bg-gray-50 dark:focus-visible:ring-gray-50"
                   href="#작업물"
                 >
                   작업물
@@ -138,7 +138,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-gray-900 text-white py-20 px-6 md:px-10" id="about">
+        <section className="bg-zinc-800 text-white py-20 px-6 md:px-10" id="about">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">디자이너 소개</h2>
