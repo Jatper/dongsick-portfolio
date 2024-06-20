@@ -19,7 +19,7 @@ export default function Home() {
           <Link className="hover:underline" href="#home">
             Home
           </Link>
-          <Link className="hover:underline" href="#작업물">
+          <Link className="hover:underline" href="#Projects">
             Projects
           </Link>
           <Link className="hover:underline" href="#about">
@@ -62,7 +62,7 @@ export default function Home() {
 
           </div>
         </section>
-        <section className="py-20 px-6 md:px-10" id="작업물">
+        <section className="py-20 px-6 md:px-10" id="Projects">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-10">작업물</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
