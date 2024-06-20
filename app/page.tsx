@@ -90,14 +90,13 @@ export default function Home() {
                   <img
                     alt="Project 3"
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
-                    fill
-                    src="jatper-111-viewport.jpg"
+                    src="https://cdn.discordapp.com/attachments/910805322942255164/1253018889936310354/1.png?ex=66745447&is=667302c7&hm=e8572bfb4401b5f5341e409cf1d34ca92561cbf72c592d1c53ba6498e752446a&"
                   />
                 </div>
-                <h3 className="mt-4 text-lg font-semibold group-hover:underline">Project 3</h3>
-                <p className="text-gray-500">Description of Project 3</p>
+                <h3 className="mt-4 text-lg font-semibold group-hover:underline">토코야미 토와</h3>
+                <p className="text-gray-500">홀로라이브 4기생 토코야미 토와입니다. 아직 제작중입니다.</p>
               </Link>
-              <Link className="group" href="#">
+              {/* <Link className="group" href="#">
                 <div className="relative h-[300px] overflow-hidden rounded-lg shadow-lg">
                   <img
                     alt="Project 4"
@@ -132,7 +131,7 @@ export default function Home() {
                 </div>
                 <h3 className="mt-4 text-lg font-semibold group-hover:underline">Project 6</h3>
                 <p className="text-gray-500">Description of Project 6</p>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>
