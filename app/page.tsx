@@ -54,9 +54,12 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
-              <img alt="3D Model" className="object-cover" src="https://cdna.artstation.com/p/assets/images/images/070/998/382/large/jatper-111-viewport.jpg?1704212701" />
+            <div class="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
+              <video class="object-cover h-full w-full" autoplay loop muted>
+                <source src="/jatper_html_main.mp4" type="video/mp4" />
+              </video>
             </div>
+
           </div>
         </section>
         <section className="py-20 px-6 md:px-10" id="작업물">
