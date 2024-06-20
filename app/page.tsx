@@ -145,12 +145,12 @@ export default function Home() {
               <p className="text-lg md:text-xl">
                 대한민국 국적에 02년생 남자 이며, 이름은 김동식입니다. 주로 3D 캐릭터 모델링과 3D 캐릭터 에니메이션을 작업합니다.
               </p>
-              <Link
-                className="inline-flex items-center justify-center rounded-md bg-gray-900 px-6 py-3 text-black hover:bg-gray-900/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:bg-gray-50 dark:hover:bg-gray-50/80 dark:focus-visible:ring-gray-50"
+              {/* <Link
+                className="inline-flex items-center justify-center rounded-md bg-zinc-100 px-6 py-3 text-black hover:bg-gray-900/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 dark:bg-gray-50 dark:hover:bg-gray-50/80 dark:focus-visible:ring-gray-50"
                 href="#"
               >
                 Learn More
-              </Link>
+              </Link> */}
             </div>
             <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
               <img alt="Designer Portrait" className="object-cover" src="https://i.namu.wiki/i/M0j6sykCciGaZJ8yW0CMumUigNAFS8Z-dJA9h_GKYSmqqYSQyqJq8D8xSg3qAz2htlsPQfyHZZMmAbPV-Ml9UA.webp" />
@@ -175,7 +175,7 @@ export default function Home() {
                 <Label htmlFor="message">Message</Label>
                 <Textarea id="message" required rows={5} style={{ backgroundColor: 'white' }} />
               </div>
-              <Button className="w-full" type="submit">
+              <Button className="w-full bg-zinc-800 text-white" type="submit">
                 Submit
               </Button>
             </form>
