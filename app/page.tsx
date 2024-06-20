@@ -17,16 +17,16 @@ export default function Home() {
         </Link>
         <nav className="hidden md:flex items-center space-x-6">
           <Link className="hover:underline" href="#home">
-            Home
+            홈
           </Link>
           <Link className="hover:underline" href="#Projects">
-            Projects
+            작업물
           </Link>
           <Link className="hover:underline" href="#about">
-            About
+            자기소개
           </Link>
           <Link className="hover:underline" href="#Contact">
-            Contact
+            연락처
           </Link>
         </nav>
         <Button className="md:hidden" variant="outline">
@@ -48,7 +48,7 @@ export default function Home() {
                 </Link>
                 <Link
                   className="inline-flex items-center justify-center rounded-md border border-gray-200 border-gray-100 px-6 py-3 text-gray-100 hover:bg-zinc-300 hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-100 focus-visible:ring-offset-2 dark:border-gray-100 dark:border-gray-50 dark:text-gray-50 dark:hover:bg-gray-50 dark:focus-visible:ring-gray-50"
-                  href="#작업물"
+                  href="#Projects"
                 >
                   작업물
                 </Link>
@@ -159,7 +159,7 @@ export default function Home() {
         </section>
         <section className="py-20 px-6 md:px-10" id="Contact">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-10">컨텐츠</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-10">연락처</h2>
             <form className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
@@ -184,13 +184,13 @@ export default function Home() {
       </main>
       <footer className="bg-gray-900 text-white py-6 px-6 md:px-10">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between">
-          <p>© 2024 3D Designer. All rights reserved.</p>
+          <p>© 2024 3D Designer Portfolio.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <Link className="hover:underline" href="#">
+            {/* <Link className="hover:underline" href="#">
               Privacy Policy
-            </Link>
+            </Link> */}
             <Link className="hover:underline" href="#">
-              Terms of Service
+              맨 위로 가기
             </Link>
           </div>
         </div>
