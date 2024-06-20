@@ -11,12 +11,12 @@ import { JSX, SVGProps } from "react";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="bg-gray-900 text-white py-4 px-6 md:px-10 flex items-center justify-between">
+       <header className="bg-gray-900 text-white py-4 px-6 md:px-10 flex items-center justify-between sticky top-0 z-50">
         <Link className="text-2xl font-bold" href="#">
           3D Designer
         </Link>
         <nav className="hidden md:flex items-center space-x-6">
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="#home">
             Home
           </Link>
           <Link className="hover:underline" href="#">
@@ -33,7 +33,7 @@ export default function Home() {
           <MenuIcon className="h-6 w-6" />
         </Button>
       </header>
-      <main className="flex-1">
+      <main className="flex-1" id="home">
         <section className="bg-gray-900 text-white min-h-screen flex items-center justify-center py-20 px-6 md:px-10">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div className="space-y-6">
