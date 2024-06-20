@@ -55,7 +55,7 @@ export default function Home() {
               </div>
             </div>
             <div class="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
-              <video class="object-cover h-full w-full" autoplay loop muted>
+              <video className="h-full w-full" autoPlay loop muted playsInline>
                 <source src="/jatper_html_main.mp4" type="video/mp4" />
               </video>
             </div>
