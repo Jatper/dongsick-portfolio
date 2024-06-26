@@ -147,7 +147,7 @@ export default function Home() {
                   <img
                     alt="Project 3"
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
-                    src="https://cdn.discordapp.com/attachments/910805322942255164/1253018889936310354/1.png?ex=66745447&is=667302c7&hm=e8572bfb4401b5f5341e409cf1d34ca92561cbf72c592d1c53ba6498e752446a&"
+                    src="towa.png"
                   />
                 </div>
                 <h3 className="mt-4 text-lg font-semibold group-hover:underline">
