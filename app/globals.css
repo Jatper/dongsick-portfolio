@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.lang { display: none; }
+.lang.active { display: block; }
