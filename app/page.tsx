@@ -142,7 +142,7 @@ export default function Home() {
                     : "原神に登場するエウラというキャラクターです。"}
                 </p>
               </Link>
-              <Link className="group" href="#">
+              <Link className="group" href="javalscript:failed">
                 <div className="relative h-[300px] overflow-hidden rounded-lg shadow-lg">
                   <img
                     alt="Project 3"
