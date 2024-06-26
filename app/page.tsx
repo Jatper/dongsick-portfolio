@@ -19,7 +19,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <header className="bg-zinc-900 text-white py-4 px-6 md:px-10 flex items-center justify-between sticky top-0 z-50">
         <Link className="text-2xl font-bold" href="#">
-          {lang === 'kr' ? '김동식 포트폴리오' : 'キムドンシクのポートフォリオ'}
+          {lang === 'kr' ? '김동식 포트폴리오' : 'キム・ドンシクのポートフォリオ'}
         </Link>
         <nav className="hidden md:flex items-center space-x-6">
           <Link className="hover:underline" href="#home">
@@ -49,10 +49,10 @@ export default function Home() {
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl font-bold">
-                {lang === 'kr' ? '3D 작업물 포트폴리오 by 김동식' : '3Dポートフォリオ by キムドンシク'}
+                {lang === 'kr' ? '3D 작업물 포트폴리오 by 김동식' : '3Dポートフォリオ by キム・ドンシク'}
               </h1>
               <p className="text-lg md:text-xl">
-                {lang === 'kr' ? '지금까지 작업했던 3D 관련된 작업들입니다.' : 'これまでに制作した3D関連の作品です。'}
+                {lang === 'kr' ? '지금까지 작업했던 3D 관련된 프로젝트입니다.' : '今まで制作した3Dプロジェクトです。'}
               </p>
               <div className="flex space-x-4">
                 <Link
@@ -137,7 +137,7 @@ export default function Home() {
                 {lang === 'kr' ? '디자이너 소개' : 'デザイナー紹介'}
               </h2>
               <p className="text-lg md:text-xl">
-                {lang === 'kr' ? '대한민국 국적에 02년생 남자 이며, 이름은 김동식입니다. 주로 3D 캐릭터 모델링과 3D 캐릭터 에니메이션을 작업합니다.' : '韓国国籍の02年生まれの男性で、名前はキムドンシクです。主に3Dキャラクターモデリングと3Dキャラクターアニメーションを制作します。'}
+                {lang === 'kr' ? '대한민국 국적에 02년생 남자 이며, 이름은 김동식입니다. 주로 3D 캐릭터 모델링과 3D 캐릭터 에니메이션을 작업합니다.' : '韓国国籍の02年生まれの男性で、名前はキム・ドンシクです。主に3Dキャラクターモデリングと3Dキャラクターアニメーションを制作します。'}
               </p>
             </div>
             <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
