@@ -4,3 +4,7 @@
 
 .lang { display: none; }
 .lang.active { display: block; }
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+  }
