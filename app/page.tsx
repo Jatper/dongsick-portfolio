@@ -227,19 +227,14 @@ export default function Home() {
                   style={{ backgroundColor: "white" }}
                 />
               </div>
-              <Button
-                className={`w-full bg-zinc-800 text-white cursor-not-allowed transition-opacity duration-300  ${
-                  isHovered ? "opacity-50" : "opacity-100"
-                }`}
-                
-                onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}
-                type="submit"
-                disabled
-              >
-                {lang === "kr" ? "제출" : "提出"}
-                
-              </Button>
+              <div
+                 className="w-full mt-4 text-center text-white border border-gray-200 p-2 rounded-md cursor-not-allowed"
+                 style={{ backgroundColor: "gray", cursor: "not-allowed" }}
+               >
+
+                {lang === "kr" ? "메일 보내기" : "メールを送る"}
+              </div>
+
             </form>
           </div>
         </section>
