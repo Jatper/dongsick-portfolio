@@ -174,7 +174,7 @@ export default function Home() {
               <p className="text-lg md:text-xl">
                 {lang === "kr"
                   ? "대한민국 국적에 02년생 남자 이며, 이름은 김동식입니다. 주로 3D 캐릭터 모델링과 3D 캐릭터 애니메이션을 작업합니다."
-                  : "韓国国籍の02年生まれの男性で、名前はキム・ドンシクです。主に3Dキャラクターモデリングと3Dキャラクターアニメーションを制作します。"}
+                  : "韓国の02年生まれの男性で、名前はキム・ドンシクです。主に3Dキャラクターモデリングと3Dキャラクターアニメーションを制作します。"}
               </p>
             </div>
             <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
@@ -228,15 +228,17 @@ export default function Home() {
                 />
               </div>
               <Button
-                className={`w-full bg-zinc-800 text-white cursor-not-allowed transition-opacity duration-300 cursor-not-allowed ${
+                className={`w-full bg-zinc-800 text-white cursor-not-allowed transition-opacity duration-300  ${
                   isHovered ? "opacity-50" : "opacity-100"
                 }`}
+                
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
                 type="submit"
                 disabled
               >
                 {lang === "kr" ? "제출" : "提出"}
+                
               </Button>
             </form>
           </div>
@@ -244,7 +246,7 @@ export default function Home() {
       </main>
       <footer className="bg-gray-900 text-white py-6 px-6 md:px-10">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between">
-          <p>© 2024 3D Designer Portfolio.</p>
+          <p>© 3D Designer Portfolio by Dongsick Kim.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <Link className="hover:underline" href="#">
               {lang === "kr" ? "맨 위로 가기" : "トップへ戻る"}
